@@ -2,6 +2,12 @@
     "folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../ndl"
+		},
+		{
+			"path": "../mls"
 		}
 	]
 }
