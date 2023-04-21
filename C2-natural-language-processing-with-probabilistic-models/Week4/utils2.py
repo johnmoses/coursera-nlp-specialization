@@ -41,9 +41,9 @@ def get_vectors(data, word2Ind, V, C):
             x[idx] = freq / num_ctx_words
         yield x, y
         i += 1
-        if i >= len(data):
-            print("i is being set to 0")
-            i = 0
+        if i >= len(data) - C:
+            print("i is being set to", C)
+            i = C
 
 
 def get_batches(data, word2Ind, V, C, batch_size):

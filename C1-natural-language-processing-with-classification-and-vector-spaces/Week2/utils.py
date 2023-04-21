@@ -1,14 +1,14 @@
 import re
 import string
 
-import numpy as np
-
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import TweetTokenizer
 
 from matplotlib.patches import Ellipse
 import matplotlib.transforms as transforms
+
+import numpy as np # Library for linear algebra and math utils
 
 
 def process_tweet(tweet):
@@ -39,7 +39,7 @@ def process_tweet(tweet):
     tweets_clean = []
     for word in tweet_tokens:
         if (word not in stopwords_english and  # remove stopwords
-                word not in string.punctuation):  # remove punctuation
+            word not in string.punctuation):  # remove punctuation
             # tweets_clean.append(word)
             stem_word = stemmer.stem(word)  # stemming word
             tweets_clean.append(stem_word)
@@ -81,22 +81,17 @@ def lookup(freqs, word, label):
 def confidence_ellipse(x, y, ax, n_std=3.0, facecolor='none', **kwargs):
     """
     Create a plot of the covariance confidence ellipse of `x` and `y`
-
     Parameters
     ----------
     x, y : array_like, shape (n, )
         Input data.
-
     ax : matplotlib.axes.Axes
         The axes object to draw the ellipse into.
-
     n_std : float
         The number of standard deviations to determine the ellipse's radiuses.
-
     Returns
     -------
     matplotlib.patches.Ellipse
-
     Other parameters
     ----------------
     kwargs : `~matplotlib.patches.Patch` properties

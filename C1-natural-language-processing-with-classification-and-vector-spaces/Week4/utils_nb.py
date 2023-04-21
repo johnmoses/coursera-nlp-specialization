@@ -85,8 +85,12 @@ def plot_vectors(vectors, colors=['k', 'b', 'r', 'm', 'c'], axes=None, fname='im
     y_dir = []
     
     for i, vec in enumerate(vectors):
-        x_dir.append(vec[0][0])
-        y_dir.append(vec[0][1])
+        if vec.shape[0] == 1:     # row vector
+            x_dir.append(vec[0][0])
+            y_dir.append(vec[0][1])
+        elif vec.shape[1] == 1:   # column vector
+            x_dir.append(vec[0][0])
+            y_dir.append(vec[1][0])
     
     if ax == None:
         fig, ax2 = plt.subplots()
@@ -103,7 +107,10 @@ def plot_vectors(vectors, colors=['k', 'b', 'r', 'm', 'c'], axes=None, fname='im
     ax2.axis([-x_axis, x_axis, -y_axis, y_axis])
         
     for i, vec in enumerate(vectors):
-        ax2.arrow(0, 0, vec[0][0], vec[0][1], head_width=0.05 * x_axis, head_length=0.05 * y_axis, fc=colors[i], ec=colors[i])
+        if vec.shape[0] == 1:     # row vector
+            ax2.arrow(0, 0, vec[0][0], vec[0][1], head_width=0.05 * x_axis, head_length=0.05 * y_axis, fc=colors[i], ec=colors[i])
+        elif vec.shape[1] == 1:   # column vector
+            ax2.arrow(0, 0, vec[0][0], vec[1][0], head_width=0.05 * x_axis, head_length=0.05 * y_axis, fc=colors[i], ec=colors[i])
     
     if ax == None:
         plt.show()
