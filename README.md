@@ -4,7 +4,7 @@
 - [Course 1: 100%](C1-natural-language-processing-with-classification-and-vector-spaces/grade.png)
 - [Course 2: 100%](C2-natural-language-processing-with-probabilistic-models/grade.png)
 - [Course 3: 100%](C3-natural-language-processing-with-sequence-models/grade.png)
-- [Course 4: 98%](C4-natural-language-processing-with-attention-models/grade.png)
+- [Course 4: 97.50%](C4-natural-language-processing-with-attention-models/grade.png)
 
 ## Course Structure
 Each course is spread out in weeks, and are made up of video slides, lab sessions, quizzes, assignments, related course materials, code and data
