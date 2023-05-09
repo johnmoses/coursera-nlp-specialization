@@ -10,7 +10,7 @@
 Each course is spread out in weeks, and are made up of video slides, lab sessions, quizzes, assignments, related course materials, code and data
 
 ## Course 1: Natural Language Processing with Classification and Vector Spaces
-
+![](C1-natural-language-processing-with-classification-and-vector-spaces/Week4/images/e_to_f.jpg)
 ### Week 1
 #### Slides
 - [Supervised ML and Sentiment Analysis](C1-natural-language-processing-with-classification-and-vector-spaces/Week1/C1_W1.pdf)
@@ -23,7 +23,7 @@ Each course is spread out in weeks, and are made up of video slides, lab session
 
 ### Week 2
 #### Slides
-- [Probability and Bayes’ Rule](C1-Introduction-to-machine-learning-in-production/Week2/C1_W2.pdf)
+- [Probability and Bayes’ Rule](C1-natural-language-processing-with-classification-and-vector-spaces/Week2/C1_W2.pdf)
 #### Labs
 - [Visualizing Naive Bayes](C1-natural-language-processing-with-classification-and-vector-spaces/Week2/C1_W2_lecture_nb_01_visualizing_naive_bayes.ipynb)
 #### Assignments
@@ -49,6 +49,7 @@ Each course is spread out in weeks, and are made up of video slides, lab session
 - [Assignment 4 - Naive Machine Translation and LSH](C1-natural-language-processing-with-classification-and-vector-spaces/Week4/C1_W4_Assignment.ipynb)
 
 ## Course 2: Natural Language Processing with Probabilistic Models
+![](C2-natural-language-processing-with-probabilistic-models/Week1/images/auto-correct.png)
 
 ### Week 1
 #### Slides
@@ -91,6 +92,7 @@ Each course is spread out in weeks, and are made up of video slides, lab session
 - [Assignment 4: Word Embeddings](C2-natural-language-processing-with-probabilistic-models/Week4/C2_W4_Assignment.ipynb)
 
 ## Course 3: Natural Language Processing with Sequence Models
+![](./C3-natural-language-processing-with-sequence-models/Week1/images/nn.jpg)
 
 ### Week 1
 #### Slides
@@ -107,7 +109,7 @@ Each course is spread out in weeks, and are made up of video slides, lab session
 - [Traditional Language models](C3-natural-language-processing-with-sequence-models/Week2/C3_W2.pdf)
 #### Labs
 - [Hidden State Activation: Ungraded Lecture Notebook](C3-natural-language-processing-with-sequence-models/Week2/C3_W2_lecture_nb_1_Hidden_State_Activation.ipynb)
-- [anilla RNNs, GRUs and the `scan` function](C3-natural-language-processing-with-sequence-models/Week2/C3_W2_lecture_nb_2_RNNs.ipynb)
+- [Vanilla RNNs, GRUs and the `scan` function](C3-natural-language-processing-with-sequence-models/Week2/C3_W2_lecture_nb_2_RNNs.ipynb)
 - [Working with JAX numpy and calculating perplexity: Ungraded Lecture Notebook](C3-natural-language-processing-with-sequence-models/Week2/C3_W2_lecture_nb_3_perplexity.ipynb)
 - [Creating a GRU model using Trax: Ungraded Lecture Notebook](C3-natural-language-processing-with-sequence-models/Week2/C3_W2_lecture_nb_4_GRU.ipynb)
 
@@ -127,7 +129,7 @@ Each course is spread out in weeks, and are made up of video slides, lab session
 
 
 ## Course 4: Natural Language Processing with Attention Models
-
+![](./C4-natural-language-processing-with-attention-models/Week2/images/C4_W2_L6_transformer-decoder_S01_transformer-decoder.png)
 ### Week 1
 #### Slides
 - [Seq2Seq model for NMT](C4-natural-language-processing-with-attention-models/Week1/C4_W1.pdf)
